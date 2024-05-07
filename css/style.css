@@ -1,14 +1,17 @@
 /* Add your custom styles here */
+/* Add your custom styles here */
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #D2B48C;
+    color: #8B0000;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #8B0000;
+    color: #D2B48C;
     padding: 20px;
 }
 
@@ -28,7 +31,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #D2B48C;
     text-decoration: none;
 }
 
@@ -44,4 +47,16 @@ img {
     max-width: 100%;
     height: auto;
     margin-bottom: 20px;
+}
+
+footer {
+    background-color: #8B0000;
+    color: #D2B48C;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: #D2B48C;
+    text-decoration: none;
 }
