@@ -88,10 +88,10 @@
             for (var i = 0; i < correctAnswers.length; i++) {
                 var resultElement = document.getElementById("q" + (i + 1) + "Result");
                 if (userAnswers[i] === correctAnswers[i]) {
-                    resultElement.textContent = "Correcto";
+                    resultElement.textContent = "Correct";
                     resultElement.className = "correct";
                 } else {
-                    resultElement.textContent = "Incorrecto";
+                    resultElement.textContent = "Wrong";
                     resultElement.className = "incorrect";
                 }
             }
