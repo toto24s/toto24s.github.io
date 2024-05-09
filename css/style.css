@@ -66,6 +66,12 @@ section {
   height: auto;
   display: block;
   margin-bottom: 5px;
+  text-align: center;
+}
+
+.image-wrapper {
+  display: inline-block;
+  text-align: center;
 }
 
 .image-caption {
