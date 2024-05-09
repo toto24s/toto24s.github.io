@@ -58,7 +58,6 @@ section {
 
 .image-container {
   display: inline-block;
-  text-align: center;
 }
 
 .image-container img {
@@ -69,8 +68,6 @@ section {
 
 .image-wrapper {
   display: inline-block;
-  justify-content: center; 
-  text-align: center;
 }
 
 .image-caption {
