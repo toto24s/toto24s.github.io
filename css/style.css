@@ -8,10 +8,28 @@ body {
   }
   
   header {
-    background-color: #8B0000;
+    background-color: #8B0000; /* Example background color */
     color: #D2B48C;
-    padding: 20px;
-  }
+    padding: 10px 20px; /* Padding around content in the header */
+    position: relative; /* Required for absolute positioning of the child elements */
+}
+
+.return-button {
+    font-weight: bold; /* Makes the text bold */
+    text-decoration: none; /* Removes underline from the link */
+    color: #000000; /* Black color text */
+    background-color: #ffffff; /* White background for the button */
+    padding: 5px 10px; /* Padding around the text to make it look like a button */
+    border: 1px solid #000000; /* Optional: adds a border to the button */
+    position: absolute; /* Positioning it absolutely inside the header */
+    top: 10px; /* Top margin from the header */
+    left: 10px; /* Left margin from the header */
+}
+
+/* Optional: Adding a hover effect */
+.return-button:hover {
+    background-color: #dddddd; /* Light grey background on hover */
+}
   
   h1 {
     margin: 0;
