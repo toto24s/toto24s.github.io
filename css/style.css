@@ -64,13 +64,12 @@ section {
 .image-container img {
   max-width: 500px;
   height: auto;
-  display: block;
   margin-bottom: 5px;
-  text-align: center;
 }
 
 .image-wrapper {
   display: inline-block;
+  justify-content: center; 
   text-align: center;
 }
 
