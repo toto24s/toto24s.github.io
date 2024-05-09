@@ -42,24 +42,19 @@ body {
   }
   
   .image-container {
-    position: relative;
     display: inline-block;
+    text-align: center;
   }
   
   .image-container img {
     max-width: 500px;
     height: auto;
     display: block;
+    margin-bottom: 5px;
   }
   
   .image-caption {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #fff;
-    padding: 5px;
+    color: #000;
     font-weight: bold;
     text-align: center;
   }
